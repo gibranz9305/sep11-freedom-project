@@ -64,8 +64,26 @@ Setting `loop Boolean false` to `true` will continously play an audio.
 
 
 
-### X/X/XX:
-* Text
+
+### 11/7/26:
+* Howler tinkers
+`<script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.4/howler.min.js"></script>`
+Is needed for the project and tinkering.
+
+I donwloaded the sound for the tinkering from [here](https://freesound.org/people/zanox/sounds/233645/) freesound.
+
+I had to make 2 new folders, _public_ and _audio_, and i put the audio in the audio folder.
+
+I added the donwloaded sound as `const alarm = new Howl({ src: ['/audio/alarm.wav'] });` which will allow for *howler.js to use it*
+
+`.addEventListener('click', () => {
+    alarm.play();`
+
+This is the hwoler code I used to make it so when i click something it will play the alarm sound that i donwloaded. I made a button id and used documetn query selector.
+
+Now the audio plays when I click the bytton, but i also still need to add the math problems and a button to stop the sound. I want the math problems to also pop up as the sound is playing, and for the sound to turn off when they are done. 
+
+Before the button I also want to add a selector where you pick what thing you need to get done, and pick a start and end date.
 
 
 <!-- 

@@ -1,7 +1,17 @@
 # Entry 1
-##### X/X/XX
+##### 11/9/26
 
-Text
+# Content
+The tool that I chose was _Howler.js_. Howler js is an audio libaray with many differnt sounds, and makes it easy to intergrate sound into javascript. The reason why I chose howler js is because it would fit into the alarm clock idea that I have. I could use howler js for the alarm clock sound, because it makes to easy to select it from their library, then download it and use it in my freedom project. In my [learning logs.](../tool/learning-logs.md). The first thing I did to learn *Howler.js* was to look at the github documentation [here](https://github.com/goldfire/howler.js). In the documentation, I learned how to download in to incorporate into my freedom project. I also learned about basic examples of code, like `var sound = new Howl({src: ['sound.mp3']`, playing any mp3 audio. Alongside basic code, the _Howler.js_ repo also gave me a list of useful code, which can change the speed of the audio, pause, replay, and resume audios I use. 
+
+I first tinkered with Howler by downloading an audio. Howler only supports specfic types of audios so while looking for an audio I had to make sure it was compatiable. I found out that _.wav_ audios can be used. I downloaded a .wav alarm clock sound. And now for the first step of something I might add to my freedom project, I wanted to make a button that when pressed would play the sound I downloaded. `const alarm = new Howl({ src: ['/audio/alarm.wav'] });`. This is the code that I used. I included `[audio/alarm.wav]`, because I had to create a seprate audio folder (audio) and put the downloaded sound in there. With new Howl, this was Howler.js's way of playing the alarm sound. To make the sound play when I click the button I added this code `.addEventListener('click',`. _addEventLsitener_ was put there so that the function would be played when the button was clicked. To make the button, I used HTML. With all of the code, I made a button that played the alarm sound when I clicked on it. This is a good foundation for my freedom project, Becuase I will eventually add a countdown and other features.
+
+# EDP
+Currently in the _EDP_, or the *Engineering Design Process*, I am on step 3, which is _Brainstorm possible solutions_. The reason why I am on this step is because I have already practiced my tool and have a general idea of what I want to do, through the learning logs. So I have already _brainstrormed_ what my future project will look like. In the future, I will soldiify what exactly I am going to put on my freedom project, and further practice so I know how to do it when the time comes.
+
+# Skills
+The skills that I used are _Growth Mindset_ and _Problem decomposition_. I used these skills becuase while I was learning the tool, I felt very overwhelmed and confused on how to download my tool to use in my ide. Initally before starting to learn Howeler.Js, I was going to split up the learning log in different sections to make it easier, this helped me complete it faster and understand better, because when I would come back to further learn my tool, I already had things written down from the previous day. I used _Growth Mindset_, because when it came to tinker with my tool I was very patient, I did not know how to incorporate my tool, because even after downloading it I didnt know how I can put my downloaded audio into my ide, and where specifically it goes. I looked at videos on youtube to help me, and I figured out you needed to make a seprate audio folder, and then put your audios in there.
+
 
 [Next](entry02.md)
 
